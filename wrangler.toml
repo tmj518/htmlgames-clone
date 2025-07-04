@@ -1,0 +1,9 @@
+name = "htmlgames-clone"
+compatibility_date = "2024-07-04"
+
+[env.production]
+pages_build_output_dir = "out"
+
+[[env.production.route]]
+pattern = "htmlgames-clone.pages.dev/*"
+zone_name = "pages.dev"
