@@ -64,7 +64,7 @@ export default function HomePage() {
 
   const [searchTerm, setSearchTerm] = useState("");
 
-  // 基础搜索功能 - 只按游戏名称搜索
+  // 基础搜索功能 - 只按游戏名称搜索 - 强制更新
   const filteredGames = games.filter((game) =>
     game.title.toLowerCase().includes(searchTerm.toLowerCase()),
   );
